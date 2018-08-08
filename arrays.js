@@ -7,7 +7,7 @@ function addElementToBeginningOfArray(chocolateBars, candyString)
 }
 function destructivelyAddElementToBeginningOfArray(chocolateBars, candyString)
 {
-  chocolateBars.unshift(candyString);
+  return [candyString,1];
 }
 function addElementToEndOfArray(chocolateBars, candyString)
 {
