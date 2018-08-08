@@ -27,8 +27,10 @@ function accessElementInArray(chocolateBars, index)
 function destructivelyRemoveElementFromBeginningOfArray(chocolateBars)
 {
   chocolateBars.shift();
+  return chocolateBars;
 }
 function destructivelyRemoveElementFromEndOfArray(chocolateBars)
 {
   chocolateBars.pop();
+  return chocolateBars;
 }
