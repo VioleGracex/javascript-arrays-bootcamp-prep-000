@@ -1,5 +1,5 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
-var candyString = "foo"
+//var candyString = "foo"
 function addElementToBeginningOfArray(chocolateBars, candyString)
 {
   chocolateBars.unshift(candyString);
@@ -7,5 +7,5 @@ function addElementToBeginningOfArray(chocolateBars, candyString)
 function destructivelyAddElementToBeginningOfArray(chocolateBars, candyString)
 {
   chocolateBars.shift();
-  chocolateBars.unshift("foo");
+  chocolateBars.unshift(candyString);
 }
